@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nobile:400italic,700italic);
 html, body {
+  margin-top: 50px;
   overflow: hidden;
   background-color: #888586;
   width: 100%;
@@ -7,9 +8,11 @@ html, body {
 }
 
 .card {
+  
+  justify-content: center;
   position: relative;
-  width: 300px;
-  height: 425px;
+  width: 400px;
+  height: 625px;
   border-width: 10px;
   border-style: solid;
   border-image: linear-gradient(to right, rgb(255, 230, 0), rgb(253, 152, 0)) 1;
