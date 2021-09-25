@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Nobile:400italic,700italic);
 html, body {
-  margin-top: 2vh;
+  
   overflow: hidden;
   background-image: url('jpg.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
  
   background-size: 100% 100%;
   width: 100%;
