@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nobile:400italic,700italic);
 html, body {
-  margin-top: 20px;
+  margin-top: 3vh;
   overflow: hidden;
   background-color: #888586;
   width: 100%;
@@ -11,8 +11,8 @@ html, body {
   
   justify-content: center;
   position: relative;
-  width: 400px;
-  height: 625px;
+  width: 500px;
+  height: 700px;
   border-width: 10px;
   border-style: solid;
   border-image: linear-gradient(to right, rgb(255, 230, 0), rgb(253, 152, 0)) 1;
@@ -20,6 +20,18 @@ html, body {
   box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background-color: #e6f0e6;
 }
+@media only screen and (min-width: 360px) {
+.card{
+  width:300px;
+height: 425px;}
+
+}
+@media only screen and (min-width: 768px) {
+  .card{
+    width: 600px;
+  height: 800px;}
+  
+  }
 
 .card .text-container {
   width: 80%;
